@@ -1,0 +1,105 @@
+.container {
+    max-width: "600px";
+    margin: 0 auto;
+  }
+  
+  
+  h2 {
+    text-align: center;
+  }
+  
+  body {
+    color: #45433e;
+    font-weight: 300;
+    background: #dddde5;
+  }
+  .myForm {
+    font-family: roboto;
+    font-size: 0.8em;
+    width: 30em;
+    padding: 0em;
+    margin: 9%;
+  }
+  
+  .myForm * {
+    box-sizing: border-box;
+  }
+  
+  .myForm fieldset {
+    border: none;
+    padding: 0.7em;
+  }
+  
+  .myForm legend {
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  
+  .myForm label {
+    padding: 0 110px;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+  
+  .myForm label.choice {
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0em;
+  }
+  
+  .myForm label {
+    text-align: left;
+    display: block;
+  }
+  
+  .myForm select {
+    float: right;
+    width: 100%;
+    border: 1px solid #1ec96b;
+    font-family: roboto;
+    font-size: 1em;
+    outline: none;
+    padding: 0.7em;
+    margin-left: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  .myForm input[type="text"],
+  .myForm input[type="date"],
+  .myForm input[type="tel"],
+  .myForm input[type="email"],
+  .myForm input[type="password"],
+  .myForm textarea {
+    float: right;
+    width: 70%;
+    border: 1px solid #1ec96b;
+    font-family: roboto;
+    font-size: 1em;
+    outline: none;
+    padding: 0.7em;
+    margin: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  .myForm textarea {
+    height: 100px;
+  }
+  
+  
+  
+  
+  .myForm button {
+    appearance: none;
+    outline: 0;
+    background-color: #1ec96b;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 0.5em;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 28%;
+    margin-top: 10%;
+  }
+  
